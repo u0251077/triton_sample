@@ -1,0 +1,19 @@
+name: "multipy_method"
+backend: "python"
+
+input [
+    {
+        name: "INPUT"
+        data_type: TYPE_FP32
+        dims: [ 1, 16 ]
+    }
+]
+
+output [
+    {
+        name: "OUTPUT"
+        data_type: TYPE_FP32
+        dims: [ 1, 16 ]
+    }
+]
+
